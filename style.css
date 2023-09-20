@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f7f7f7;
+    background: rgba(175, 105, 158, 0.801); 
   }
  
   main {
@@ -20,19 +20,22 @@
   }
  
   h1 {
-    text-align: center;
+    text-align: center; 
+    background-color: rgb(175, 118, 166);
+
   }
  
   hr {
     font-weight: bold;
     height: 3px;
-    background: black;
+    background: rgb(31, 1, 1);
     margin-bottom: 10px;
   }
  
   .game {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(168, 55, 140, 0.705);
   }
  
   .game button {
@@ -41,5 +44,6 @@
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
-    background: #f7f7f7;
+    background: #8d5073;
   }
+  .titulo{color: rgb(21, 22, 22); text-decoration:wavy;}
